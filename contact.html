@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="title-header">
+          <div class="title">Es Teh MULYONO</div>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="container">
+        <ul class="justify">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="produk.html">produk</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <h1 style="text-align: center;">Hubungi Kami</h1>
+
+      <form action="proses_kontak.php" method="post">
+        <label for="nama">Nama:</label><br />
+        <input type="text" id="nama" name="nama" /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
+
+        <label for="pesan">Pesan:</label><br />
+        <textarea id="pesan" name="pesan" rows="5" cols="40"></textarea
+        ><br /><br />
+
+        <input type="submit" value="Kirim" />
+      </form>
+
+      <p style="padding-left: 20px;">Atau hubungi kami melalui:</p>
+      <ul style="padding-left: 20px;">
+        <li>Telepon: (021) 1234567</li>
+        <li>Email: kontak@contoh.com</li>
+        <li>Alamat: Jl. Contoh No. 123, Kota Jakarta</li>
+      </ul>
+    </main>
+    <footer>
+      <p>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        EsTehMULYONO. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
